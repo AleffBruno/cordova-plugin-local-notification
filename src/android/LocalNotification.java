@@ -541,7 +541,7 @@ public class LocalNotification extends CordovaPlugin {
             getNotMgr().cancelAll();
             fireEvent("cancelall");
             command.success();
-        } carch (Exception e) {
+        } catch (Exception e) {
 
         }
         
